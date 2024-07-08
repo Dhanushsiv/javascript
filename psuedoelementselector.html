@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            color: orange;
+            font-variant:small-caps;
+
+
+        }
+        p::first-letter{
+            color: green;
+            font-size: 50px;
+        }
+        ::marker{
+            color: blue;
+            font-size: 58px;
+            margin-left: 50px;
+        }
+         H1::before{
+            content:url(./dhanush.jpg)
+         }
+         H1::after{
+            content:url(./endrik\ -\ Copy.jpg)
+         }
+
+        
+    </style>
+</head>
+<body>
+    <h1> pseudo-element selector</h1>
+    <ol>
+        <li>first-line</li>
+        <li> first-letter</li>
+        <li>before</li>
+        <li>after</li>
+        <li>selector</li>
+        <li>marker</li>
+    </ol>
+    <p>pseudo-element is used to style the specified element</p>
+    <p> hii iam dhanush neymar </p>
+    </body>
+</html>
